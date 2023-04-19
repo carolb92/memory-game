@@ -1,0 +1,17 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#grid {
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#grid > img {
+  margin: 10px;
+}
